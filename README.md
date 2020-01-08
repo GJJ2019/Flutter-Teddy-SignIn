@@ -1,6 +1,6 @@
 # Flutter Teddy Sign In
 
-A beautiful sign in app design based on Flutter & Flare teddy animation.
+A beautiful sign in app design based on Flutter & Flare teddy animation. [Flutter Teddy SignIn apk](https://github.com/GJJ2019/Flutter-Teddy-SignIn/raw/master/app-armeabi-v7a-release.apk).
 
 <img align = "right" src="https://raw.githubusercontent.com/GJJ2019/Flutter-Teddy-SignIn/master/screenshot/orange.png" height="500">
 
@@ -33,6 +33,9 @@ Note: This project uses teddy which is present in [Flare-Flutter](https://github
 <img src="screenshot/black.png" height="500em" /> <img src="screenshot/blue.png" height="500em" /> 
 <img src="screenshot/cyan.png" height="500em" /> <img src="screenshot/indigo.png" height="500em" />
 <img src="screenshot/lime.png" height="500em" /> <img src="screenshot/pink.png" height="500em" />
+
+## Packages used :
+[Flare](https://pub.dev/packages/flare_flutter) [flutter_spinkit](https://pub.dev/packages/flutter_spinkit)
 
 ## Getting Started
 

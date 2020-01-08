@@ -14,8 +14,7 @@ A beautiful sign in app design based on Flutter & Flare teddy animation.
   * [x] Easily Customisable (with style.dart file).
   * [x] Ready to use material with Todo comments all over project.
   * [x] Responsive design.
-  * [x] No Licenses 😀.
-
+  * [x] No Licenses 😀.    
 
 ### Created & Maintained By
 
@@ -27,7 +26,7 @@ A beautiful sign in app design based on Flutter & Flare teddy animation.
 
     No Licenses 😀.
 
-Note: This project uses teddy which is present in [Rive](https://rive.app/) so make sure you check out there terms & conditions.
+Note: This project uses teddy which is present in [Flare-Flutter](https://github.com/2d-inc/Flare-Flutter) [Rive](https://rive.app/) so make sure you check out there repo, terms & conditions.
 
 ## With Different Colors
 

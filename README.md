@@ -2,6 +2,8 @@
 
 A beautiful sign in app design based on Flutter & Flare teddy animation. [Flutter Teddy SignIn apk](https://github.com/GJJ2019/Flutter-Teddy-SignIn/raw/master/app-armeabi-v7a-release.apk).
 
+ #### For App : valid email: gaurav@gmail.com & password: gaurav
+
 <img align = "right" src="https://raw.githubusercontent.com/GJJ2019/Flutter-Teddy-SignIn/master/screenshot/orange.png" height="500">
 
 ## Features

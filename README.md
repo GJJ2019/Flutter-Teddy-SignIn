@@ -7,7 +7,7 @@ A beautiful sign in app design based on Flutter & Flare teddy animation. [Flutte
 <img align = "right" src="https://raw.githubusercontent.com/GJJ2019/Flutter-Teddy-SignIn/master/screenshot/orange.png" height="500">
 
 ## Features
-  * [x] [Check if email is valiod or not.](https://raw.githubusercontent.com/GJJ2019/Flutter-Teddy-SignIn/master/screenshot/errors.png)
+  * [x] [Check if email is valid or not.](https://raw.githubusercontent.com/GJJ2019/Flutter-Teddy-SignIn/master/screenshot/errors.png)
   * [x] Opens email keyboard when press on email field.
   * [x] Show & Hide button for password field.
   * [x] [Nice loading animation when button is press.](https://raw.githubusercontent.com/GJJ2019/Flutter-Teddy-SignIn/master/screenshot/loading.png)

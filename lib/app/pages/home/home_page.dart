@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatelessWidget {
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
   // Todo: Implement Your Home Page
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Text(
           'Sign In Successful',

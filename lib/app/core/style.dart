@@ -6,7 +6,7 @@ import 'package:flutter/material.dart' show Color, Colors;
 class Style {
   static final Color buttonColor = Colors.deepOrange.shade600;
   static final Color buttonHighlightColor = Colors.deepOrange.shade400;
-  static final Color upperGradientColor = Colors.orangeAccent;
+  static const Color upperGradientColor = Colors.orangeAccent;
   static final Color lowerGradientColor = Colors.deepOrange.shade800;
 }
 

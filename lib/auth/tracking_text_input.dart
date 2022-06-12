@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:teddy_sign_in/app/pages/auth/helper/input_helper.dart';
 
 typedef CaretMoved = void Function(Offset globalCaretPosition);
@@ -29,10 +28,10 @@ class TrackingTextInput extends StatefulWidget {
   final IconData icon;
 
   @override
-  _TrackingTextInputState createState() => _TrackingTextInputState();
+  TrackingTextInputState createState() => TrackingTextInputState();
 }
 
-class _TrackingTextInputState extends State<TrackingTextInput> {
+class TrackingTextInputState extends State<TrackingTextInput> {
   final GlobalKey _fieldKey = GlobalKey();
   final TextEditingController _textController = TextEditingController();
   Timer? _debounceTimer;

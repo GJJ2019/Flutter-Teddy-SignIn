@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:teddy_sign_in/app/core/style.dart';
 
 import 'input_helper.dart';
@@ -31,10 +30,10 @@ class TrackingTextInput extends StatefulWidget {
   final IconData icon;
 
   @override
-  _TrackingTextInputState createState() => _TrackingTextInputState();
+  TrackingTextInputState createState() => TrackingTextInputState();
 }
 
-class _TrackingTextInputState extends State<TrackingTextInput> {
+class TrackingTextInputState extends State<TrackingTextInput> {
   final GlobalKey _fieldKey = GlobalKey();
   final TextEditingController _textController = TextEditingController();
   Timer? _debounceTimer;

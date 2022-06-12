@@ -10,10 +10,10 @@ import 'helper/tracking_text_input.dart';
 class SignInPage extends StatefulWidget {
   const SignInPage({Key? key}) : super(key: key);
   @override
-  _SignInPageState createState() => _SignInPageState();
+  SignInPageState createState() => SignInPageState();
 }
 
-class _SignInPageState extends State<SignInPage> {
+class SignInPageState extends State<SignInPage> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   late TeddyController _teddyController;
@@ -118,7 +118,8 @@ class _SignInPageState extends State<SignInPage> {
                             ),
                           ),
                           IconButton(
-                            icon: Icon(_isObscured ? Icons.visibility : Icons.visibility_off, color: Colors.black45),
+                            icon: Icon(_isObscured ? Icons.visibility : Icons.visibility_off,
+                                color: Colors.black45),
                             onPressed: () {
                               setState(() {
                                 _isObscured = !_isObscured;
@@ -134,7 +135,8 @@ class _SignInPageState extends State<SignInPage> {
                           shape: MaterialStateProperty.all(
                             RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
                           ),
-                          padding: MaterialStateProperty.all(const EdgeInsets.symmetric(vertical: 8)),
+                          padding:
+                              MaterialStateProperty.all(const EdgeInsets.symmetric(vertical: 8)),
                           backgroundColor: MaterialStateProperty.all(Style.buttonColor),
                         ),
                         child: _isLoading
@@ -202,13 +204,16 @@ class _SignInPageState extends State<SignInPage> {
 
   // Todo: implement after sign in success
   ///  Sign in successful
-  void _signInSuccess() async {
-    await Future.delayed(const Duration(seconds: 1));
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(
-        builder: (context) => const HomePage(),
-      ),
+  void _signInSuccess() {
+    Future.delayed(const Duration(seconds: 1)).then(
+      (_) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const HomePage(),
+          ),
+        );
+      },
     );
   }
 
